@@ -298,11 +298,22 @@
             font-family: 'Josefin Sans', sans-serif;
             font-size: 1rem;
             font-weight: normal;
-            border-bottom: 1px solid lightgrey;
             padding-bottom: 50px;
         }
 
         .mission-title-div {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.4rem;
+            text-decoration: none;
+            text-align: left;
+            justify-content: center;
+            width: 70%;
+            margin-top: 50px;
+            margin: auto auto;
+            border-top: 1px solid lightgrey;
+        }
+
+        .our-shops-div {
             font-family: 'Josefin Sans', sans-serif;
             font-size: 1.4rem;
             text-decoration: none;
@@ -403,6 +414,24 @@
             background: #e409eb;
         }
 
+        .our-shops {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 70%;
+            margin-top: 50px;
+            margin: auto auto;
+        }
+
+        .map img{
+            width: 100%;
+            height: auto;
+        }
+
+        .map {
+            margin: 20px;
+        }
+
         @media screen and (max-width: 1200px) {
         * {
             box-sizing: border-box;
@@ -454,6 +483,7 @@
 
         .recommended-section, .latest-section {
             width: 100%;
+            border: 1px solid black;
         }
 
         .recommended-items {
@@ -806,6 +836,29 @@
                     <p><b>Team dobrenarty.pl :-)</b></p>
                     <p>Zapraszamy również do sklepów stacjonarnych w Krakowie i Modlnicy k.Krakowa.</p>
                 </div>
+        </section>
+
+        <div class="our-shops-div">
+            <p class="mission-title">Nasze sklepy</p>
+        </div>
+
+        <section class="our-shops">
+            <div class="zak">
+                <div class="shop-adress">
+
+                </div>
+                <div class="map">
+                    <img src="https://dobrenarty.pl/themes/dobrenarty/assets/img/infografiki/mapa_krakow.jpg" alt="">
+                </div>
+            </div>
+            <div class="mod">
+                <div class="shop-adress">
+                    
+                </div>
+                <div class="map">
+                    <img src="https://dobrenarty.pl/themes/dobrenarty/assets/img/infografiki/mapa_modlnica.jpg" alt="">
+                </div>
+            </div>
         </section>
 </body>
 </html>
